@@ -1,11 +1,7 @@
 import React from 'react';
 
-const Header = () => (
+import './styles.css';
 
-);
+const Header = () => <header id='main-header'>JSHunt</header>
 
-class Header extends Component{
-  render(){
-    return <h1></h1>
-  }
-}
+export default Header;
